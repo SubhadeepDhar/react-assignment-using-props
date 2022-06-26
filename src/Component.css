@@ -1,0 +1,33 @@
+.component {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  img {
+    height: 40px;
+    width: 45px;
+  }
+  .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info {
+    word-wrap: break-word;
+  }
+  .right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: .6;
+  }
+  
+  .right_right {
+    display: flex;
+    flex-direction: column;
+  }
+  .right_right button {
+    margin-bottom: 10px;
+  }
