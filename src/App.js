@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Component from "./Component";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Component
+        link=""
+        name="Nord Stage 3 88 Keys"
+        about="EMLA Music"
+        price="$5,738.00"
+      />
+      <Component
+        link=""
+        name="Line 6 Helix Rack Guiter Processor-1x opened box"
+        about="ProMusic Tools"
+        price="$1,831.57"
+      />
+      <Component
+        link=""
+        name="Nord Stage 3 88 Keys"
+        about="EMLA Music"
+        price="$5,738.00"
+      />
+      <Component
+        link=""
+        name="Nord Stage 3 88 Keys"
+        about="EMLA Music"
+        price="$5,738.00"
+      />
+      <Component
+        link=""
+        name="Nord Stage 3 88 Keys"
+        about="EMLA Music"
+        price="$5,738.00"
+      />
+      <Component
+        link=""
+        name="Nord Stage 3 88 Keys"
+        about="EMLA Music"
+        price="$5,738.00"
+      />
+    </>
   );
 }
 
